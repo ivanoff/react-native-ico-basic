@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-basic';
 render() {
     return (
         <>
-          <Icon name="home" />
-          <Icon name="file" height="40" width="40" />
-          <Icon name="smile" color="red" />
+          <Icon name="add" />
+          <Icon name="web" height="40" width="40" />
+          <Icon name="video" color="red" />
         </>
     );
 }
