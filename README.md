@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Basic Icons](static/basic.md)
+- [List of Basic Icons](http://ico.simpleness.org/pack/basic)
 
 ## Installation
 
