@@ -1,8 +1,8 @@
-# Basic Icons for React Native
+# basic Icons for React Native
 
 ### react-native-ico-basic
 
-237 Icons
+369 Icons
 
 ## Usage
 
@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-basic';
 render() {
     return (
         <>
-          <Icon name="add" />
-          <Icon name="web" height="40" width="40" />
-          <Icon name="video" color="red" />
+          <Icon name="home" />
+          <Icon name="file" height="40" width="40" />
+          <Icon name="smile" color="red" />
         </>
     );
 }
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Basic Icons](http://ico.simpleness.org/pack/basic)
+- [List of basic Icons](http://ico.simpleness.org/pack/basic)
 
 ## Installation
 
@@ -69,7 +69,7 @@ height | yes | 20 | height of the icon | 40
 
 ## Icons Made by
 
-[Icongeek26](https://www.flaticon.com/authors/icongeek26)
+[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
 
 ## Created by
 
