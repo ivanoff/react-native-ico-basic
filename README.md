@@ -1,8 +1,8 @@
-# basic Icons for React Native
+# Basic Icons for React Native
 
 ### react-native-ico-basic
 
-369 Icons
+237 Icons
 
 ## Usage
 
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of basic Icons](http://ico.simpleness.org/pack/basic)
+- [List of Basic Icons](http://ico.simpleness.org/pack/basic)
 
 ## Installation
 

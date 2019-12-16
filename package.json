@@ -1,10 +1,10 @@
 {
   "name": "react-native-ico-basic",
-  "version": "2.2.1",
-  "description": "basic Icons for React Native",
+  "version": "2.3.1",
+  "description": "Basic Icons for React Native",
   "main": "src/index.js",
   "dependencies": {
-    "react-svg-main": "^0.2.2"
+    "react-svg-main": "^0.3.1"
   },
   "repository": {
     "type": "git",
@@ -16,11 +16,11 @@
     "Icons",
     "Icon",
     "SVG",
-    "basic"
+    "Basic"
   ],
   "author": "Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua",
   "bugs": {
     "url": "https://github.com/ivanoff/react-native-ico-basic/issues"
   },
-  "homepage": "https://github.com/ivanoff/react-native-ico-basic"
+  "homepage": "http://ico.simpleness.org/pack/basic"
 }
