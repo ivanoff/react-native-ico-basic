@@ -2,7 +2,7 @@
 
 ### react-native-ico-basic
 
-369 Vector Icons for React Native
+237 Vector Icons for React Native
 
 <img src="./static/contacs.png" alt="contacs" width="150" height="150"> <img src="./static/aim.png" alt="aim" width="150" height="150"> <img src="./static/clock.png" alt="clock" width="150" height="150">
 
@@ -23,6 +23,10 @@ render() {
           <Icon name="contacs" />
           <Icon name="aim" height="40" width="40" />
           <Icon name="clock" color="red" />
+          <Icon name="aim" badge="10" />
+          <Icon name="aim" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
+          <Icon name="contacs" background="circle" />
+          <Icon name="contacs" background={{ type: "button", color: 'green' }} />
         </>
     );
 }
@@ -57,7 +61,7 @@ cd ios && pod install && cd ..
 
 ## API
 
-### <Icon name [color width height ...rest] />
+### <Icon name [color width height background badge ...rest] />
 
 Returns a SvgXml icon by name and group.
 
@@ -67,6 +71,10 @@ name | no |  | name of icon | "contacs"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
+background | no | | background type | "circle"
+background | no | | background object | {type: "circle", color: 'yellow'}
+badge | no | | badge string | "10"
+badge | no | | badge object | {value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}
 ...rest | no | | other props | style={{backgroundColor: "#00f"}}
 
 ## Icons Made by
