@@ -1,6 +1,6 @@
 {
   "name": "react-native-ico-basic",
-  "version": "4.1.3",
+  "version": "4.1.4",
   "description": "Basic Icons for React Native",
   "main": "src/index.jsx",
   "types": "typings.d.ts",
