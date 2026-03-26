@@ -4,7 +4,7 @@
 
 237 Vector Icons for React Native
 
-<img src="./static/contacs.png" alt="contacs" width="150" height="150"> <img src="./static/aim.png" alt="aim" width="150" height="150"> <img src="./static/clock.png" alt="clock" width="150" height="150">
+<img src="./static/name.png" alt="name" width="150" height="150"> <img src="./static/diary.png" alt="diary" width="150" height="150"> <img src="./static/trash.png" alt="trash" width="150" height="150">
 
 ## List of icons
 
@@ -20,14 +20,14 @@ import Icon from 'react-native-ico-basic';
 render() {
     return (
         <>
-          <Icon name="contacs" />
-          <Icon name="aim" height="40" width="40" />
-          <Icon name="clock" color="red" />
-          <Icon name="clock" colors={{ "#000000": "#FFFFFF" }} />
-          <Icon name="aim" badge="10" />
-          <Icon name="aim" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
-          <Icon name="contacs" background="circle" />
-          <Icon name="contacs" background={{ type: "button", color: 'green' }} />
+          <Icon name="name" />
+          <Icon name="diary" height="40" width="40" />
+          <Icon name="trash" color="red" />
+          <Icon name="trash" colors={{ "#000000": "#FFFFFF" }} />
+          <Icon name="diary" badge="10" />
+          <Icon name="diary" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
+          <Icon name="name" background="circle" />
+          <Icon name="name" background={{ type: "button", color: 'green' }} />
         </>
     );
 }
@@ -54,7 +54,9 @@ npm install --save react-native-ico-basic react-native-svg
 react-native link react-native-svg
 ```
 
-### pod install ( for iOS )
+`react-native-svg` is a peer dependency. Install a current version in the app so the package uses the app-level native module instead of pulling in an older nested copy.
+
+### pod install (for iOS)
 
 ```
 cd ios && pod install && cd ..
@@ -68,9 +70,9 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of icon | "contacs"
+name | no |  | name of icon | "name"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
-colors | yes | | replace colors | {"#FFFFFF": "#000000"} // white to black
+colors | yes | | replace colors | {"#FFFFFF": "#000000", "#f00": "#00f"} // white to black, red to blue
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 background | yes | | background type | "circle"
